@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Phuong ShiftTechTest | MaxProfit</title>
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+</head>
+
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-2.0.1.js"></script>
+  <script src="MaxProfit.js"></script>
+
+  <script>
+    QUnit.test( "MaxProfit", function( assert ) {
+      // maxProfit initialized
+      let maxProfit = new MaxProfit();
+      // Test  cases
+      assert.equal(maxProfit.calculate([4, 22, 5, 8, 38]), 30, "maxProfit of [4, 22, 5, 8, 38] should return => 30" );
+      assert.equal(maxProfit.calculate([-1, 0, -2, 0, -2]), 0, "maxProfit of [-1, 0, -2, 0, -2] should return => 0" );
+      assert.equal(maxProfit.calculate([1, 90, 8, 78, 109, 89, 77]), 89, "maxProfit of [1, 90, 8, 78, 109, 89, 77] should return => 89" );
+      assert.equal(maxProfit.calculate([198, 98, 78, 67, 45, 24, 20, 17, 10, 2]), 0, "maxProfit of [198, 98, 78, 67, 45, 24, 20, 17, 10, 2] should return => 0" );
+
+    });
+  </script>
+</body>
+</html>
