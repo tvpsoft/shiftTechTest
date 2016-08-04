@@ -1,4 +1,4 @@
-# [**MaxProfitr**](MaxProfit.js)
+# [**MaxProfit**](MaxProfit.js)
 
 ## [**Problem Statement**](MaxProfit.js)
 
